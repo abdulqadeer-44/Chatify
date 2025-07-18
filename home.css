@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(rgb(236, 201, 137),rgb(247, 244, 244));
+}
+.nav img{
+    height: 8vh;
+    margin: 7px;
+}
+.nav h1{
+    font-size: 2rem; 
+}
+.container1{
+    padding: 10px;
+    height: 76vh;
+    background-color: rgba(27, 190, 202, 0.838);
+   display: block;
+   overflow-y: auto;
+    /* background-image: linear-gradient(rgb(246, 246, 127),rgb(159, 151, 151)); */
+}
+.container1 p{
+    background-color: rgba(243, 232, 217, 0.511);
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 45%;
+}
+.right_text{
+    float: right;
+}
+.send{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        background-image: linear-gradient(rgb(247, 244, 244),rgb(236, 201, 137));
+
+}
+input{
+    padding: 10px;
+    width: 60vw;   
+    border-radius: 6px;
+}
+
+.send_button{
+    background-color: rgb(156, 201, 228);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.message {
+    background-color: rgba(243, 232, 217, 0.511);
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 45%;
+    clear: both;
+}
+
+.message.right {
+    float: right;
+    background-color: rgba(200, 230, 201, 0.7);
+}
+
+.message.left {
+    float: left;
+    background-color: rgba(243, 232, 217, 0.511);
+}
